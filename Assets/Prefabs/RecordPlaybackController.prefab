@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6520816963901527933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6520816963901527931}
+  - component: {fileID: 6520816963901527930}
+  - component: {fileID: 6520816963901527928}
+  m_Layer: 0
+  m_Name: RecordPlaybackController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6520816963901527931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6520816963901527933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.314075, y: -50.758366, z: 68.19314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6520816963901527930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6520816963901527933}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd68e8cfa2b4d847b63a9524c84536f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play: 0
+  enableHeadPlayback: 1
+  UBRecording: {fileID: 11400000, guid: 1d6d5ce3a713aca4d95be2feee1a619e, type: 2}
+  _recordTime: 0
+  _startRecording: 280
+  _endRecording: 281
+  _saveType: 1
+  _unityAssetSavePath: Assets/UBRecording
+  LHand: {fileID: 0}
+  RHand: {fileID: 0}
+  RecordingHead: {fileID: 0}
+  PlaybackHead: {fileID: 0}
+--- !u!114 &6520816963901527928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6520816963901527933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b43c32cb37a6b43b074b9ee203613a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startRecording: 280
+  _endRecording: 281
+  _saveType: 1
+  _unityAssetSavePath: Assets/SimpleRecording
+  Play: 1
+  head: {fileID: 0}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  phead: {fileID: 0}
+  pleftHand: {fileID: 0}
+  prightHand: {fileID: 0}
+  ik: {fileID: 0}
+  recording: {fileID: 11400000, guid: 2608645c1485cea408e70f2fe8c53061, type: 2}
+  seekSeconds: 0

@@ -1,0 +1,12 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.metawithvivetracking.exe",
+   "bindings" : {},
+   "category" : "steamvr_input",
+   "controller_type" : "vive_tracker_handed",
+   "description" : "",
+   "name" : "My MetaWithViveTracking [Testing] configuration for Vive Tracker in Hand",
+   "options" : {},
+   "simulated_actions" : []
+}
